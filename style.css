@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    border: 5px solid #e1bee7;
+    background-color: #fff1ff;
+    display: grid;
+    
+    /*numero de columnas y ancho de cada columna*/
+    grid-template-columns: 100px 200px 300px;
+
+    /*alto de cada fila*/
+    /* grid-template-rows: 150px 250px; */
+
+    /*usado para grillas con n elementos, con un alto definido*/
+    grid-auto-rows: 150px;
+
+    /*modifica la forma de llenado de grilla*/
+    grid-auto-flow: column;
+}
+
+.container2{
+    border: 5px solid #e1bee7;
+    background-color: #fff1ff;
+    display: grid;
+    grid-template-rows: 100px 200px;
+    grid-auto-columns:100px;
+    grid-auto-flow: column;
+    
+    /*espacio entre filas*/
+    /* row-gap: 15px;
+    column-gap: 15px; */
+    gap: 30px;
+}
+.item {
+    border: 5px solid #00bcd4;
+    font-size: 4rem;
+}
