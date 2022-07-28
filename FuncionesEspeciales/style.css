@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    border: 5px solid #e1bee7;
+    background-color: #fff1ff;
+    display: grid;
+    grid-template-columns: minmax(30px, 300px) 200px minmax(60px, 300px);
+    grid-auto-rows: 100px 100px 100px;
+
+}
+.item {
+    border: 5px solid #00bcd4;
+    font-size: 4rem;
+} 
