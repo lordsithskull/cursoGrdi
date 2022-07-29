@@ -7,7 +7,7 @@
     border: 5px solid #e1bee7;
     background-color: #fff1ff;
     display: grid;
-    grid-template-columns: repeat(4, 100px );
+    grid-template-columns: repeat(4, 1fr );
 }
 .item {
     border: 5px solid #00bcd4;
